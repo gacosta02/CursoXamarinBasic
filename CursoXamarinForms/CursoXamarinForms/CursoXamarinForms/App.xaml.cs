@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CursoXamarinForms.Views.ConstruyendoUI;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace CursoXamarinForms
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Pantalla1();
         }
 
         protected override void OnStart()

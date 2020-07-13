@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CursoXamarinForms.Views.ConstruyendoUI.Pantalla1">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Beige" 
+              RowDefinitions="*,*,*" ColumnDefinitions="*,*">
+            <Label Grid.Row="0"
+                   Grid.ColumnSpan="2"
+                   Text="Formulario de contactos"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Titulo" Grid.Row="1" Grid.Column="0"/>
+            <Entry Grid.Row="1" Grid.Column="1"/>
+            <Label Text="Descripcion" Grid.Row="2" Grid.Column="0"/>
+            <Entry Grid.Row="3" Grid.ColumnSpan="2"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
