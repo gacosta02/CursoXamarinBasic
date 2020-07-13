@@ -6,8 +6,17 @@
              mc:Ignorable="d"
              x:Class="CursoXamarinForms.Views.ConstruyendoUI.Pantalla2">
     <ContentPage.Content>
-        <Grid>
-            
+        <Grid BackgroundColor="AliceBlue" RowDefinitions="*,*,*,*" ColumnDefinitions="*,*">
+            <Label Grid.Row="0"
+                   Grid.ColumnSpan="2"
+                   Text="Formulario de Usuarios"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Name" Grid.Row="1" Grid.Column="0"/>
+            <Entry Grid.Row="1" Grid.Column="1"/>
+            <Label Text="Direccion" Grid.Row="2" Grid.Column="0"/>
+            <Entry Grid.Row="2" Grid.Column="1"/>
+            <Label Text="Phone" Grid.Row="3" Grid.Column="0"/>
+            <Entry Grid.Row="3" Grid.Column="1"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
